@@ -6,11 +6,9 @@
     <title>Passagem de Parâmetros via GET</title>
 </head>
 <body>
-    <form action="parametros_get_02.php" method="get">
-        <label for="fname">Primeiro Nome:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Sobrenome:</label>
-        <input type="text" id="lname" name="lname"><br><br>
+    <form action="gabarito_senha.php" method="post">
+        <label for="senha">Digite a senha:</label>
+        <input type="text" id="senha" name="senha"><br><br>
         <input type="submit" value="Enviar">
     </form>
 </body>
