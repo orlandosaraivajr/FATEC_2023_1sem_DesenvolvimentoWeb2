@@ -6,9 +6,11 @@
     <title>Passagem de Parâmetros via GET</title>
 </head>
 <body>
-    <form action="gabarito_senha.php" method="post">
+    <form action="gabarito_senha.php" method="POST">
         <label for="senha">Digite a senha:</label>
-        <input type="text" id="senha" name="senha"><br><br>
+        <input type="password" id="senha" name="senha"><br><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <input type="date" id="data" name="data"><br><br>
         <input type="submit" value="Enviar">
     </form>
 </body>
