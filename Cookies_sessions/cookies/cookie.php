@@ -1,7 +1,7 @@
 <?php
-   # setcookie("nome", "Orlando Saraiva", time()+3600, "/","", 0);
-   # setcookie("idade", "40", time()+3600, "/", "",  0);
-   # setcookie("universidade", "Fatec");
+   setcookie("nome", "Orlando Saraiva", time()+3600, "/","", 0);
+   setcookie("idade", "40", time()+3600, "/", "",  0);
+   setcookie("universidade", "Fatec");
 ?>
 <html>
    

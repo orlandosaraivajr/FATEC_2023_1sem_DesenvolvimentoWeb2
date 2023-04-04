@@ -8,8 +8,14 @@
 <body>
 <?php
 print_r($_POST);
-
-
+print_r($_GET);
+print('<br><br>Mostrando a senha<br><br>');
+print($_POST['senha']);
+print('<br><br>Mostrando a senha<br><br>');
+print($_POST['data']);
+$data = explode("-", $_POST['data']);
+print('<br><br>Data<br><br>');
+print_r($data);
 ?>
 </body>
 </html>
